@@ -9,11 +9,28 @@
 /* Begin PBXBuildFile section */
 		7608D5F624CBA7300035AD1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608D5F524CBA7300035AD1F /* AppDelegate.swift */; };
 		7608D5F824CBA7300035AD1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608D5F724CBA7300035AD1F /* SceneDelegate.swift */; };
-		7608D5FB24CBA7300035AD1F /* Meddie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7608D5F924CBA7300035AD1F /* Meddie.xcdatamodeld */; };
+		7608D5FB24CBA7300035AD1F /* Meddie.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 7608D5F924CBA7300035AD1F /* Meddie.xcdatamodeld */; };
 		7608D5FD24CBA7300035AD1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608D5FC24CBA7300035AD1F /* ContentView.swift */; };
 		7608D5FF24CBA7360035AD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608D5FE24CBA7360035AD1F /* Assets.xcassets */; };
 		7608D60224CBA7360035AD1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608D60124CBA7360035AD1F /* Preview Assets.xcassets */; };
 		7608D60524CBA7360035AD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7608D60324CBA7360035AD1F /* LaunchScreen.storyboard */; };
+		7608D63024CCF6F90035AD1F /* MakeMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608D62F24CCF6F90035AD1F /* MakeMedication.swift */; };
+		763FB58924D5C29A0041A811 /* MakeMyMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB58824D5C29A0041A811 /* MakeMyMedication.swift */; };
+		763FB59824D840840041A811 /* MorningMedication+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59024D840840041A811 /* MorningMedication+CoreDataClass.swift */; };
+		763FB59924D840840041A811 /* MorningMedication+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59124D840840041A811 /* MorningMedication+CoreDataProperties.swift */; };
+		763FB59A24D840840041A811 /* NightMedication+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59224D840840041A811 /* NightMedication+CoreDataClass.swift */; };
+		763FB59B24D840840041A811 /* NightMedication+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59324D840840041A811 /* NightMedication+CoreDataProperties.swift */; };
+		763FB59C24D840840041A811 /* AfternoonMedication+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59424D840840041A811 /* AfternoonMedication+CoreDataClass.swift */; };
+		763FB59D24D840840041A811 /* AfternoonMedication+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59524D840840041A811 /* AfternoonMedication+CoreDataProperties.swift */; };
+		763FB59E24D840840041A811 /* EveningMedication+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59624D840840041A811 /* EveningMedication+CoreDataClass.swift */; };
+		763FB59F24D840840041A811 /* EveningMedication+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB59724D840840041A811 /* EveningMedication+CoreDataProperties.swift */; };
+		763FB5A424DAFDC10041A811 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB5A324DAFDC10041A811 /* Credits.swift */; };
+		763FB5A624DB062A0041A811 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FB5A524DB062A0041A811 /* Help.swift */; };
+		7656093124D25F5500DC22D1 /* Medications+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656092F24D25F5500DC22D1 /* Medications+CoreDataClass.swift */; };
+		7656093224D25F5500DC22D1 /* Medications+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656093024D25F5500DC22D1 /* Medications+CoreDataProperties.swift */; };
+		7656093424D3822600DC22D1 /* MedicationsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656093324D3822600DC22D1 /* MedicationsHistoryView.swift */; };
+		7656093624D384A600DC22D1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656093524D384A600DC22D1 /* SettingsView.swift */; };
+		7656093A24D45AC700DC22D1 /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656093924D45AC700DC22D1 /* MedicationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,23 @@
 		7608D60124CBA7360035AD1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7608D60424CBA7360035AD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7608D60624CBA7360035AD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7608D62F24CCF6F90035AD1F /* MakeMedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMedication.swift; sourceTree = "<group>"; };
+		763FB58824D5C29A0041A811 /* MakeMyMedication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMyMedication.swift; sourceTree = "<group>"; };
+		763FB59024D840840041A811 /* MorningMedication+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MorningMedication+CoreDataClass.swift"; sourceTree = "<group>"; };
+		763FB59124D840840041A811 /* MorningMedication+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MorningMedication+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		763FB59224D840840041A811 /* NightMedication+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NightMedication+CoreDataClass.swift"; sourceTree = "<group>"; };
+		763FB59324D840840041A811 /* NightMedication+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NightMedication+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		763FB59424D840840041A811 /* AfternoonMedication+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AfternoonMedication+CoreDataClass.swift"; sourceTree = "<group>"; };
+		763FB59524D840840041A811 /* AfternoonMedication+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AfternoonMedication+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		763FB59624D840840041A811 /* EveningMedication+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EveningMedication+CoreDataClass.swift"; sourceTree = "<group>"; };
+		763FB59724D840840041A811 /* EveningMedication+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EveningMedication+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		763FB5A324DAFDC10041A811 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		763FB5A524DB062A0041A811 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		7656092F24D25F5500DC22D1 /* Medications+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medications+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7656093024D25F5500DC22D1 /* Medications+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medications+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7656093324D3822600DC22D1 /* MedicationsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsHistoryView.swift; sourceTree = "<group>"; };
+		7656093524D384A600DC22D1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7656093924D45AC700DC22D1 /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +76,16 @@
 		7608D5E924CBA7300035AD1F = {
 			isa = PBXGroup;
 			children = (
+				763FB59024D840840041A811 /* MorningMedication+CoreDataClass.swift */,
+				763FB59124D840840041A811 /* MorningMedication+CoreDataProperties.swift */,
+				763FB59224D840840041A811 /* NightMedication+CoreDataClass.swift */,
+				763FB59324D840840041A811 /* NightMedication+CoreDataProperties.swift */,
+				763FB59424D840840041A811 /* AfternoonMedication+CoreDataClass.swift */,
+				763FB59524D840840041A811 /* AfternoonMedication+CoreDataProperties.swift */,
+				763FB59624D840840041A811 /* EveningMedication+CoreDataClass.swift */,
+				763FB59724D840840041A811 /* EveningMedication+CoreDataProperties.swift */,
+				7656092F24D25F5500DC22D1 /* Medications+CoreDataClass.swift */,
+				7656093024D25F5500DC22D1 /* Medications+CoreDataProperties.swift */,
 				7608D5F424CBA7300035AD1F /* Meddie */,
 				7608D5F324CBA7300035AD1F /* Products */,
 			);
@@ -61,6 +105,13 @@
 				7608D5F524CBA7300035AD1F /* AppDelegate.swift */,
 				7608D5F724CBA7300035AD1F /* SceneDelegate.swift */,
 				7608D5FC24CBA7300035AD1F /* ContentView.swift */,
+				7656093924D45AC700DC22D1 /* MedicationsView.swift */,
+				763FB58824D5C29A0041A811 /* MakeMyMedication.swift */,
+				7656093324D3822600DC22D1 /* MedicationsHistoryView.swift */,
+				7608D62F24CCF6F90035AD1F /* MakeMedication.swift */,
+				7656093524D384A600DC22D1 /* SettingsView.swift */,
+				763FB5A524DB062A0041A811 /* Help.swift */,
+				763FB5A324DAFDC10041A811 /* Credits.swift */,
 				7608D5FE24CBA7360035AD1F /* Assets.xcassets */,
 				7608D60324CBA7360035AD1F /* LaunchScreen.storyboard */,
 				7608D60624CBA7360035AD1F /* Info.plist */,
@@ -105,7 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "Michael Adams";
 				TargetAttributes = {
 					7608D5F124CBA7300035AD1F = {
@@ -136,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7608D5FB24CBA7300035AD1F /* Meddie.xcdatamodeld in Resources */,
 				7608D60524CBA7360035AD1F /* LaunchScreen.storyboard in Resources */,
 				7608D60224CBA7360035AD1F /* Preview Assets.xcassets in Resources */,
 				7608D5FF24CBA7360035AD1F /* Assets.xcassets in Resources */,
@@ -149,10 +201,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763FB5A424DAFDC10041A811 /* Credits.swift in Sources */,
+				7656093424D3822600DC22D1 /* MedicationsHistoryView.swift in Sources */,
+				763FB59C24D840840041A811 /* AfternoonMedication+CoreDataClass.swift in Sources */,
+				7656093624D384A600DC22D1 /* SettingsView.swift in Sources */,
+				763FB59A24D840840041A811 /* NightMedication+CoreDataClass.swift in Sources */,
+				763FB59E24D840840041A811 /* EveningMedication+CoreDataClass.swift in Sources */,
+				763FB59F24D840840041A811 /* EveningMedication+CoreDataProperties.swift in Sources */,
+				763FB59B24D840840041A811 /* NightMedication+CoreDataProperties.swift in Sources */,
+				7656093124D25F5500DC22D1 /* Medications+CoreDataClass.swift in Sources */,
+				7656093224D25F5500DC22D1 /* Medications+CoreDataProperties.swift in Sources */,
+				763FB5A624DB062A0041A811 /* Help.swift in Sources */,
+				763FB58924D5C29A0041A811 /* MakeMyMedication.swift in Sources */,
 				7608D5F624CBA7300035AD1F /* AppDelegate.swift in Sources */,
+				7608D63024CCF6F90035AD1F /* MakeMedication.swift in Sources */,
+				7656093A24D45AC700DC22D1 /* MedicationsView.swift in Sources */,
+				763FB59D24D840840041A811 /* AfternoonMedication+CoreDataProperties.swift in Sources */,
 				7608D5F824CBA7300035AD1F /* SceneDelegate.swift in Sources */,
 				7608D5FD24CBA7300035AD1F /* ContentView.swift in Sources */,
-				7608D5FB24CBA7300035AD1F /* Meddie.xcdatamodeld in Sources */,
+				763FB59824D840840041A811 /* MorningMedication+CoreDataClass.swift in Sources */,
+				763FB59924D840840041A811 /* MorningMedication+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +264,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +325,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

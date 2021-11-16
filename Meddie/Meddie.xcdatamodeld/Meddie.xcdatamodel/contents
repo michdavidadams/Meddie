@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AfternoonMedication" representedClassName="AfternoonMedication" syncable="YES">
+        <attribute name="lastTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numberToTake" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeToTake" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="EveningMedication" representedClassName="EveningMedication" syncable="YES">
+        <attribute name="lastTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numberToTake" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeToTake" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Medications" representedClassName="Medications" syncable="YES" codeGenerationType="class">
+        <attribute name="dateTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="selectedAmount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="MorningMedication" representedClassName="MorningMedication" syncable="YES">
+        <attribute name="lastTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numberToTake" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeToTake" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="NightMedication" representedClassName="NightMedication" syncable="YES">
+        <attribute name="lastTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numberToTake" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeToTake" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Medications" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="MorningMedication" positionX="-54" positionY="54" width="128" height="103"/>
+        <element name="AfternoonMedication" positionX="-36" positionY="63" width="128" height="103"/>
+        <element name="EveningMedication" positionX="-18" positionY="72" width="128" height="103"/>
+        <element name="NightMedication" positionX="0" positionY="81" width="128" height="103"/>
+    </elements>
 </model>
